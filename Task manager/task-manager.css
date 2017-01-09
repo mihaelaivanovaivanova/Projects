@@ -1,0 +1,36 @@
+html,body, div, input, label,footer, span{
+    font-family: sans-serif;
+    font-size:20px;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+  color:#D9D9D9;
+}
+
+input#taskField{
+    height:40px;
+    width:350px;
+    border:0;
+    border-bottom: 1px solid #D9D9D9;
+}
+div#task-container{
+    width:350px;
+}
+div#task-container div{
+    height:40px;
+}
+div.todo{
+    display: inline-block;
+}
+.done{
+    text-decoration: line-through;
+}
+
+input[type="checkbox"]{
+    .checkbox-circle
+}
+
+.done{
+    color:#D9D9D9;
+}
