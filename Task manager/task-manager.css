@@ -9,26 +9,58 @@ html,body, div, input, label,footer, span{
 }
 
 input#taskField{
-    height:40px;
-    width:350px;
+    height:50px;
+    width:500px;
     border:0;
     border-bottom: 1px solid #D9D9D9;
 }
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+footer span{
+    display:inline-block;
+    margin-top:15px;
+    font-size: 15px;
+    color:#777;
+}
+
+span#left-items{
+    margin-right:50px;
+}
+
+span#all, span#active, span#completed{
+    margin-left:10px;   
+}
+
 div#task-container{
-    width:350px;
+    width:500px;
 }
 div#task-container div{
-    height:40px;
+    height:35px;
+    vertical-align: center;
+    padding-top:15px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #D9D9D9;
 }
 div.todo{
     display: inline-block;
 }
+
 .done{
     text-decoration: line-through;
 }
 
+span.close{
+    color:#cc9a9a;
+    /*display:inline-block;*/
+    float:right;
+}
+
+
 input[type="checkbox"]{
-    .checkbox-circle
+   margin-right:15px;
 }
 
 .done{

@@ -52,6 +52,7 @@ function AddTask() {
     var input = document.getElementById('taskField').value;
     var taskContainer = document.getElementById("task-container");
     var div = document.createElement('div');
+    div.setAttribute('class', 'visible');
     var checkbox = document.createElement('input');
     checkbox.setAttribute('type', 'checkbox');
     checkbox.setAttribute('name', 'name');
@@ -62,7 +63,7 @@ function AddTask() {
     label.innerText = input;
     var closeSpan = document.createElement('span');
     closeSpan.setAttribute('class', 'close');
-    closeSpan.innerText = 'X';
+    closeSpan.innerText = '✖';
     closeSpan.addEventListener('click', function () {
         var elementToRemove = closeSpan.parentNode;
         
