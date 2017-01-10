@@ -21,7 +21,7 @@ textarea:focus, input:focus{
 
 footer span{
     display:inline-block;
-    margin-top:15px;
+    margin-top:10px;
     font-size: 15px;
     color:#777;
 }
@@ -31,7 +31,9 @@ span#left-items{
 }
 
 span#all, span#active, span#completed{
+    cursor: pointer;
     margin-left:10px;   
+    padding:4px;
 }
 
 div#task-container{
@@ -50,19 +52,15 @@ div.todo{
 
 .done{
     text-decoration: line-through;
+    color:#D9D9D9;
 }
 
 span.close{
+    cursor: pointer;
     color:#cc9a9a;
-    /*display:inline-block;*/
     float:right;
 }
 
-
 input[type="checkbox"]{
    margin-right:15px;
-}
-
-.done{
-    color:#D9D9D9;
 }
